@@ -1,0 +1,20 @@
+.invisivel 
+{
+    display: none;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+
+
+.tema-escuro
+{
+    background-color: #000000;
+    color: #C1C3C3;
+}
+
+.tema-claro
+{
+    background-color: white;
+    color: #000000;
+}
