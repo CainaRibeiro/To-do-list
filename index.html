@@ -7,13 +7,14 @@
     <title>To do List</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/tema.css">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body class="corpo">
     <header class="header">
         <h1 class="titulo">TO DO LIST</h1>
         
         <nav class="social flex"> 
-            <a href=""><img class="img" src="img/github1.png" alt="GitHub"></a>           
+            <a href="https://github.com/CainaRibeiro/To-do-list" target="_blank"><img class="img" src="img/github1.png" alt="GitHub"></a>           
             <div class="relative flex  tema-principal botao">Tema
                 <div class="tema flex dropdown invisivel">
                     <ul>                    
@@ -29,11 +30,35 @@
         </nav>
     </header>
     <main>
-
+        <section class="container">
+            <form action="">            
+                    <div class="grupo">
+                        <label for="">Tarefa</label><br>
+                        <input type="text" name="tarefa" id="tarefa">
+                    </div>
+                    <div class="grupo">
+                        <label for="">Data</label><br>
+                        <input type="date" name="data" id="data">
+                    </div>
+                    <div class="grupo">
+                        <label for="">Hora</label><br>
+                        <input type="time" name="hora" id="hora">
+                    </div>            
+            </form>
+        </section>
+        <input type="submit" value="adicionar" class="adicionar">
+        
+        <table class="tabela">
+            <thead>
+                <tr>Tarefa</tr>
+                <tr>Data</tr>
+                <tr>Hora</tr>
+            </thead>
+        </table>
     </main>
     <footer>
 
     </footer>
-    <script src="js/header.js"></script>
+    <script src="js/tema.js"></script>
 </body>
 </html>

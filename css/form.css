@@ -1,0 +1,14 @@
+.container
+{
+    display: block;
+}
+
+.grupo
+{
+    display: inline-block;
+}
+
+.adicionar
+{
+    display: block;
+}

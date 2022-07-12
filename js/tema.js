@@ -9,6 +9,11 @@ tema.addEventListener('mouseenter', function()
     dropdown.classList.remove('invisivel');
 });
 
+tema.addEventListener('mouseleave', function()
+{
+    dropdown.classList.add('invisivel');
+})
+
 escuro.addEventListener('click', function()
 {
     dropdown.classList.add('invisivel');
