@@ -4,6 +4,7 @@ var dropdown    = tema.querySelector('.dropdown');
 var escuro      = document.querySelector('.escuro');
 var claro       = document.querySelector('.claro');
 
+
 tema.addEventListener('mouseenter', function()
 {
     dropdown.classList.remove('invisivel');

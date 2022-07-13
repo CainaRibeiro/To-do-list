@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/done.css">
+    <link rel="stylesheet" href="css/principal.css">
 </head>
 <body class="corpo">
     <header class="header">
@@ -31,40 +32,51 @@
         </nav>
     </header>
     <main>
-        <section class="container">
-            <form id="form">            
-                    <div class="grupo">
-                        <label for="">Task</label><br>
-                        <input type="text" name="tarefa" id="tarefa">
-                    </div>
-                    <div class="grupo">
-                        <label for="">Date</label><br>
-                        <input type="date" name="data" id="data">
-                    </div>
-                    <div class="grupo">
-                        <label for="">Hour</label><br>
-                        <input type="time" name="hora" id="hora">
-                    </div>            
-            </form>
-            <input type="submit" value="add" class="adicionar">
-            <ul class="erros"></ul>
+        <section class="container-left">
+            menuzinho
         </section>
-                
-        <table class="tabela">
-            <thead class="thead">
-                <tr>
-                    <th class="thead tarefa">Tarefa</th>
-                    <th class="thead data">Data</th>
-                    <th class="thead hora">Hora</th>
-                </tr>        
-            </thead>
-            <tbody class="tbody">
-                
-            </tbody>
-        </table>
-    </main>
-    <footer>
+        <section class="container-principal">
+            <section class="container">
+                <form id="form">
+                        <div class="grupo">
+                            <label for="">Task</label><br>
+                            <input type="text" name="tarefa" id="tarefa">
+                        </div>
+                        <div class="grupo">
+                            <label for="">Date</label><br>
+                            <input type="date" name="data" id="data">
+                        </div>
+                        <div class="grupo">
+                            <label for="">Hour</label><br>
+                            <input type="time" name="hora" id="hora">
+                        </div>
+                </form>
+                <input type="submit" value="add" class="adicionar">
+                <ul class="erros"></ul>
+            </section>
+            
+            <section class="container-tabela">
+                <table class="tabela">
+                    <thead class="thead">
+                        <tr>
+                            <th class="thead tarefa">Tarefa</th>
+                            <th class="thead data">Data</th>
+                            <th class="thead hora">Hora</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+            
+                    </tbody>
+                </table>
+            </section>
+        </section>
 
+        <section class="container-right">
+
+        </section>
+    </main>
+    <footer style="text-align: center; text-decoration: none;">
+        <h3>Criado por <a href="https://www.linkedin.com/in/cainaribeiro/">Cainã</a></h3>
     </footer>
     <script src="js/theme.js"></script>
     <script src="js/add.js"></script>

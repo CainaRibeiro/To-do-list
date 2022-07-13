@@ -1,8 +1,11 @@
 .container
 {
     display: block;
-    width: 90vw;
+    width: 100%;
     margin: 100px auto 30px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.116);
 }
 
 .grupo
@@ -19,32 +22,42 @@
     cursor: pointer;
 }
 
+.container-tabela
+{
+    height: 60vh;
+    overflow-x: auto;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.116);
+}
+
 .tabela
 {
-    width: 90vw;
+    width: 100%;
     margin: 20px auto;
     border-spacing: 20px;
 }
 
 .thead
 {
-    width: 450px;
+    width: 100%;
     text-align: left;
 }
 
 .tarefa
 {
-    width: 173px;
+    width: 60%;
 }
 
 .data
 {
-    width: 115px;
+    width: 20%;
 }
 
 .hora
 {
-    width: 73px;
+    width: 20%;
 }
 
 
