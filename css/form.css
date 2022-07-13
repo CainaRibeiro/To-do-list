@@ -1,14 +1,50 @@
 .container
 {
     display: block;
+    width: 90vw;
+    margin: 100px auto 30px auto;
 }
 
 .grupo
 {
     display: inline-block;
+    margin-left: 20px;
 }
 
 .adicionar
 {
     display: block;
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
 }
+
+.tabela
+{
+    width: 90vw;
+    margin: 20px auto;
+    border-spacing: 20px;
+}
+
+.thead
+{
+    width: 450px;
+    text-align: left;
+}
+
+.tarefa
+{
+    width: 173px;
+}
+
+.data
+{
+    width: 115px;
+}
+
+.hora
+{
+    width: 73px;
+}
+
+

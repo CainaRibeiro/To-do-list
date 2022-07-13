@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do List</title>
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/tema.css">
+    <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/done.css">
 </head>
 <body class="corpo">
     <header class="header">
@@ -31,7 +32,7 @@
     </header>
     <main>
         <section class="container">
-            <form action="">            
+            <form id="form">            
                     <div class="grupo">
                         <label for="">Tarefa</label><br>
                         <input type="text" name="tarefa" id="tarefa">
@@ -45,20 +46,31 @@
                         <input type="time" name="hora" id="hora">
                     </div>            
             </form>
+            <input type="submit" value="adicionar" class="adicionar">
+            <ul class="erros"></ul>
         </section>
-        <input type="submit" value="adicionar" class="adicionar">
-        
+                
         <table class="tabela">
-            <thead>
-                <tr>Tarefa</tr>
-                <tr>Data</tr>
-                <tr>Hora</tr>
+            <thead class="thead">
+                <tr>
+                    <th class="thead tarefa">Tarefa</th>
+                    <th class="thead data">Data</th>
+                    <th class="thead hora">Hora</th>
+                </tr>        
             </thead>
+            <tbody class="tbody">
+                
+            </tbody>
         </table>
     </main>
     <footer>
 
     </footer>
-    <script src="js/tema.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/add.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/remove.js"></script>
+    <script src="js/done.js"></script>
 </body>
 </html>
