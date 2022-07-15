@@ -1,5 +1,37 @@
 .container-principal
 {
-    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 450px;
     margin: 0 auto;
+}
+
+.container
+{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.116);
+}
+
+
+.container-left
+{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.container-mid
+{
+    width: 450px;
+}
+
+.container-right
+{
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px auto;
 }

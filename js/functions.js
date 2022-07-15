@@ -1,7 +1,7 @@
-alert(`Features:
-Double click = mark as done;
-ctrl + click = remove task;
-`)
+// alert(`Features:
+// Double click = mark as done;
+// ctrl + click = remove task;
+// `)
 
 
 function adicionaTarefa(tarefa)
