@@ -9,6 +9,7 @@
     height: 100px;
     display: flex;
     justify-content: space-between;
+    width: calc(100% - 100px);
 }
 
 .titulo

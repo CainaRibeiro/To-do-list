@@ -1,0 +1,13 @@
+.search-label
+{
+    margin: 5px 0 5px 15px;
+}
+
+#search
+{
+    border-radius: 15px;
+    display: block;
+    margin: 5px 0 5px 15px;
+    padding: 5px;
+}
+

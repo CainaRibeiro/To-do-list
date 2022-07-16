@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do List</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/done.css">
     <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/left-menu.css">
 </head>
 <body class="corpo">
     <header class="header">
@@ -34,7 +36,8 @@
     <main>
         <section class="container-principal"> 
             <section class="container-left">
-                menuzinho
+                <label for="search" class="search-label">Search</label>
+                <input type="search" name="search" id="search">
             </section>  
                      
             <section class="container-mid">
@@ -61,9 +64,9 @@
                     <table class="tabela">
                         <thead class="thead">
                             <tr>
-                                <th class="thead tarefa">Tarefa</th>
-                                <th class="thead data">Data</th>
-                                <th class="thead hora">Hora</th>
+                                <th class="thead tarefa">Task</th>
+                                <th class="thead data">Date</th>
+                                <th class="thead hora">Hour</th>
                             </tr>
                         </thead>
                         <tbody class="tbody">
@@ -87,5 +90,6 @@
     <script src="js/validation.js"></script>
     <script src="js/remove.js"></script>
     <script src="js/done.js"></script>
+    <script src="js/search.js"></script>
 </body>
 </html>
