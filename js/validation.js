@@ -4,17 +4,17 @@ function validaTarefa(tarefa)
     
     if (tarefa.tarefa.length == 0)
     {
-        erro.push('Preencha a tarefa')
+        erro.push('Preencha a tarefa!')
     }
 
     if (tarefa.data.length == 0)
     {
-        erro.push('Preencha a data')
+        erro.push('Preencha a data!')
     }
 
     if (tarefa.hora.length == 0)
     {
-        erro.push('Preencha a hora')
+        erro.push('Preencha a hora!')
     }
 
 
