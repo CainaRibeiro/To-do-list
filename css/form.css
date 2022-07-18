@@ -1,8 +1,16 @@
+label
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .grupo
 {
     display: inline-block;
     margin-left: 20px;
 }
+
 
 .adicionar
 {
@@ -10,16 +18,15 @@
     margin: 20px;
     padding: 5px;
     cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    border-radius: 50%;
 }
 
-.container-tabela
+
+.adicionar:hover
 {
-    height: 60vh;
-    overflow-x: auto;
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.116);
+    box-shadow: 1px 1px 15px 1px rgba(3, 158, 248, 0.438);
 }
 
 .tabela
@@ -37,17 +44,33 @@
 
 .tarefa
 {
-    width: 60%;
+    width: 50%;
+    padding: 5px;
 }
 
 .data
 {
     width: 20%;
+    padding: 5px;
 }
 
 .hora
 {
     width: 20%;
+    padding: 5px;
 }
+
+.info-tarefa, .info-data, .info-hora
+{
+    padding: 5px;
+}
+
+.row
+{
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(167, 167, 167, 0.116);
+}
+
+
 
 

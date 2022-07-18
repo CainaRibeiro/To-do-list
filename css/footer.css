@@ -1,0 +1,26 @@
+.rodape
+{
+    padding: 10px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.link
+{
+    color: black;
+}
+
+.link:hover
+{
+    color: cornflowerblue;
+}
+
+link:visited
+{
+    color: black;
+}

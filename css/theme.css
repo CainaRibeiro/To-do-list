@@ -1,3 +1,5 @@
+
+
 .invisivel 
 {
     display: none;
@@ -14,27 +16,12 @@
     border-radius: 5px;
 }
 
-.claro:hover
-{
-    background-color: white;
-    color: #000000;
-    border-radius: 5px;
-}
-
 .tema-escuro
 {
     background-color: #000000;
     color: #C1C3C3;
 }
 
-.border-escuro
-{
-    padding: 0 5px;
-    border-radius: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.219);
-    border-left: 1px solid rgba(255, 255, 255, 0.219);
-    border-right: 1px solid rgba(255, 255, 255, 0.219);
-}
 
 /*-----------------------TEMA CLARO--------------------*/
 
@@ -44,11 +31,9 @@
     color: #000000;
 }
 
-.border-claro
+.claro:hover
 {
-    padding: 0 5px;
-    border-radius: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
-    border-left: 1px solid rgba(0, 0, 0, 0.219);
-    border-right: 1px solid rgba(0, 0, 0, 0.219);
+    background-color: white;
+    color: #000000;
+    border-radius: 5px;
 }

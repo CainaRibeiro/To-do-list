@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="css/done.css">
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/shearch.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;700&display=swap" rel="stylesheet"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body class="corpo">
     <header class="header">
@@ -21,10 +29,7 @@
             <a href="https://github.com/CainaRibeiro/To-do-list" target="_blank"><img class="img" src="img/github1.png" alt="GitHub"></a>           
             <div class="relative flex  tema-principal botao">Theme
                 <div class="tema flex dropdown invisivel">
-                    <ul>                    
-                        <div class="tema1 ">
-                            <li class="opçoes"> Default</li>
-                        </div>
+                    <ul>              
                         <div class="tema1 escuro">
                             <li class="opçoes"> Dark</li>
                         </div>
@@ -59,13 +64,15 @@
                     <ul class="erros"></ul>
                     
                 </section>
-                <label for="search" class="search-label">Search task</label>
-                <input type="search" name="search" id="search">
+                <section class="search">
+                    <label for="search" class="search-label">Search task</label>
+                    <input type="search" name="search" id="search">
+                </section>
             
                 <section class="container-tabela">
                     <table class="tabela">
                         <thead class="thead">
-                            <tr>
+                            <tr class="trHead">
                                 <th class="thead tarefa">Task</th>
                                 <th class="thead data">Date</th>
                                 <th class="thead hora">Hour</th>
@@ -79,8 +86,8 @@
             </section>        
         </section>
     </main>
-    <footer style="text-align: center; text-decoration: none;">
-        <h3>Developed by <a href="https://www.linkedin.com/in/cainaribeiro/" target="_blank">Cainã</a></h3>
+    <footer class="rodape">
+        <h3 class="texto-rodape">Developed by <a class="link" href="https://www.linkedin.com/in/cainaribeiro/" target="_blank"><strong>Cainã</strong></a></h3>
     </footer>
     <script src="js/theme.js"></script>
     <script src="js/add.js"></script>
