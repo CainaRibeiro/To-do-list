@@ -71,6 +71,14 @@ label
     box-shadow: 1px 1px 1px 1px rgba(167, 167, 167, 0.116);
 }
 
+.erros 
+{
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+    color: red;
+    padding: 5px;
+}
+
 
 
 
