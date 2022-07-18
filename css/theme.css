@@ -7,6 +7,20 @@
 
 /*------------TEMA ESCURO-------------------------*/
 
+.escuro:hover
+{
+    background-color: #000000;
+    color: #C1C3C3;
+    border-radius: 5px;
+}
+
+.claro:hover
+{
+    background-color: white;
+    color: #000000;
+    border-radius: 5px;
+}
+
 .tema-escuro
 {
     background-color: #000000;

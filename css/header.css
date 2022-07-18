@@ -9,13 +9,14 @@
     height: 100px;
     display: flex;
     justify-content: space-between;
-    width: calc(100% - 100px);
+    width: calc(100% - 40px);
+    padding-bottom: 100px;
 }
 
 .titulo
 {
     padding: 30px;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 
 .img

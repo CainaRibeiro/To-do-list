@@ -1,9 +1,22 @@
+:root
+{
+    --cor-principal: #99E5E6;
+    --cor-fundo: #446566;
+}
+
+.corpo
+{
+    background-color: var(--cor-fundo);
+}
+
 .container-principal
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
+    width: calc(100% - 40px);
+    background-color: var(--cor-principal);
 }
 
 .container
